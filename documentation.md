@@ -2,12 +2,11 @@
 
 ## Prerequisite
 
-- Python
-- Gemini API Keys
+- [Gemini API Keys](https://aistudio.google.com/app/api-keys)
 
 ## Index
 
-1. [MongoDB Account](#mongodb-account) (Skip this step if you already have MongoDB connection string.)
+1. [MongoDB Account](#mongodb-account) (Skip this step if you already have a MongoDB connection string.)
 2. [Code](#code)
 
 ## MongoDB Account
@@ -97,35 +96,10 @@
 
 ## Code
 
-- Create a python virtual environment using the following command
+- To run the code, open this [Google Colab](https://colab.research.google.com/github/busycaesar/MongoDB_RAG_Skill_Badge/blob/Master/main.ipynb).
 
-```bash
-python3 -m venv .venv
-```
+- Add the following environment variables in Google Colab using the Secrets (key icon) tab in the left-hand sidebar.
+  - `MONGODB_CONNECTION_STRING`
+  - `GEMINI_API_KEYS`
 
-- Active the virtual environment using the following command
-
-```bash
-source .venv/bin/activate
-```
-
-- Create `.env` file and store the following variables along with their values.
-
-```env
-MONGODB_CONNECTION_STRING='mongodb+srv://...........'
-GEMINI_API_KEYS='.....'
-```
-
-- Use the following command to install the required libs and deps.
-
-```bash
-pip install --upgrade sentence-transformers langchain_community langchain langchain_google_genai pymongo python-dotenv
-```
-
-- Create a `main.py` file and add [this code](./main.py).
-
-- Finally run the script using the following command.
-
-```bash
-python main.py
-```
+- Finally, run the code.
