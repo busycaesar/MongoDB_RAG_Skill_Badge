@@ -7,3 +7,7 @@ This repository contains the code and documentation for the [MongoDB User Group 
 ## Tech Stack
 
 ![Image Alt](https://skillicons.dev/icons?i=py,mongo)
+
+## Getting Started
+
+Follow the [Step-by-Step Documentation](./documentation.md) to set up your environment, configure your MongoDB Atlas cluster, and launch the Google Colab notebook to run the code.
