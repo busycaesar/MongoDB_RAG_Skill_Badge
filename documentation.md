@@ -99,7 +99,9 @@
 - To run the code, open this [Google Colab](https://colab.research.google.com/github/busycaesar/MongoDB_RAG_Skill_Badge/blob/Master/main.ipynb).
 
 - Add the following environment variables in Google Colab using the Secrets (key icon) tab in the left-hand sidebar.
-  - `MONGODB_CONNECTION_STRING`
-  - `GEMINI_API_KEYS`
+    - `MONGODB_CONNECTION_STRING`
+    - `GEMINI_API_KEYS`
+
+![image](https://github.com/user-attachments/assets/3bab65ad-9afa-41a1-b5ec-8a0fb5b84433)
 
 - Finally, run the code.
