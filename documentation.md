@@ -1,4 +1,4 @@
-# Embeddings and Cosine Similarity with MongoDB
+# RAG with MongoDB
 
 ## Prerequisite
 
